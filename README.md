@@ -1,64 +1,49 @@
-# [This is Example for Readme File]
+# RCI Lab Tutorials
 
-Short one-line description.  
-예: MPC-based Whole-Body Controller for Humanoid Robots.
+This repository contains tutorials and resources for new RCI Lab students.  
+These materials cover various topics including Navigation, Control, Reinforcement Learning, and Simulation to help you get started with your research.
 
-## Overview
-이 저장소는 [로봇 이름/시뮬레이터]에서 [제어 방법]을 구현한 ROS 2 패키지입니다.  
-본 연구는 [논문명/프로젝트명]의 일부로 수행되었습니다.
+## 📚 Table of Contents
 
-## Dependencies
-- ROS 2 Humble (>= 2022.05)
-- Python 3.10 / C++17
-- [Pinocchio](https://github.com/stack-of-tasks/pinocchio) >= 2.6.15
-- [acados](https://github.com/acados/acados) >= 0.2.0
+- [Navigation & Planning](#navigation--planning)
+- [Control, Dynamics & Kinematics](#control-dynamics--kinematics)
+- [Reinforcement Learning & AI](#reinforcement-learning--ai)
+- [Simulation & Tools](#simulation--tools)
 
-설치 예시:
-```bash
-sudo apt install ros-humble-ros2-control ros-humble-gazebo-ros-pkgs
-pip install pinocchio==2.6.15
-```
+---
 
-## Installation
-```bash
-mkdir -p ~/ros2_ws/src && cd ~/ros2_ws/src
-git clone https://github.com/<org>/<repo>.git
-cd ~/ros2_ws
-colcon build --symlink-install
-source install/setup.bash
-```
+## 🧭 Navigation & Planning
 
-## Usage
-```bash
-ros2 launch <package_name> sim.launch.py world:=lab_world
-ros2 run <package_name> mpc_controller --ros-args -p horizon:=30
-```
+tutorials related to path planning, navigation stacks, and multi-robot fleet management.
 
-## Examples
-1. **MPC Tracking** – Humanoid walking in Gazebo  
-   ```bash
-   ros2 launch mpc_humanoid walking.launch.py
-   ```
-2. **Impedance Control** – 7-DoF Arm tracking trajectory  
-   ```bash
-   ros2 launch impedance_control demo.launch.py
-   ```
+- **[Nav2 Structure & Principles, Behavior Tree](https://github.com/san2642/ROS2_Tutorial_Navigation2)** Understanding the architecture of ROS2 Navigation2 and Behavior Trees.
+- **[Grid Based Planning](https://github.com/jth8090/Grid_Based_Planning_Tutorial)** Basics of path planning algorithms on grid maps.
+- **[Sampling Based Planning](https://github.com/mach0312/Sampling-Based-Planning_Tutorial)** Tutorials on sampling-based algorithms (RRT, PRM, etc.).
+- **[Open-RMF](https://github.com/agbread/RMF_tutorial)** Open Robotics Middleware Framework for interoperability in heterogeneous robot fleets.
 
-## Citation
-If you use this code in your research, please cite:
+## ⚙️ Control, Dynamics & Kinematics
 
-```bibtex
-@inproceedings{kim2025mpc,
-  title     = {MPC-based Whole-Body Control for Humanoid Robots},
-  author    = {Kim, Sanghyun and Others},
-  booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
-  year      = {2025}
-}
-```
+Resources for robot control theory, inverse dynamics, and kinematics.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **[Inverse Dynamics (OSC, QP, HQP, TSID)](https://github.com/Idea4Future/Inverse-Dynamics)** Advanced control methods including Operational Space Control and Quadratic Programming.
+- **[Optimal Control](https://github.com/minhyeong10/optimal_control_tutorial)** Introduction to optimal control theory and implementation.
+- **[Model Predictive Path Integral (MPPI)](https://github.com/leesai-0512/mppi_tutorial)** Tutorial on MPPI control strategy.
+- **[Manipulator Inverse Kinematics](https://github.com/daumpark/Manipulator-Inverse-Kinematics)** Solving inverse kinematics for robotic manipulators.
+- **[Pinocchio Library Tutorial](https://github.com/Mia-estudiante/pinocchio_tutorial)** Guide to using the Pinocchio library for rigid body dynamics.
 
-## Contact
-Maintainer: [이름] (<email>)  
-Lab: [RCI Lab @ Kyung Hee University](https://rcilab.khu.ac.kr)
+## 🧠 Reinforcement Learning & AI
+
+Deep learning and reinforcement learning applications in robotics.
+
+- **[Reinforcement Learning (Isaac Sim) - PPO](https://github.com/bhe1004/soarm_tutorial)** PPO algorithm implementation using Isaac Sim.
+- **[Humanoid Reinforcement Learning](https://github.com/cold-deuu/mobile_robot_tutorial)** From Locomotion to Whole-body Motion Retargeting.
+- **[rl_sar: Introduction & Navigation](https://github.com/JJiwonYoon/rl_sar_lecture)** Introduction to rl_sar and training methods for navigation.
+- **[Imitation Learning: Diffusion Policy](https://github.com/qlOoOlp/Diffusion-Policy-Tutorial)** Tutorial on Diffusion Policy for robotic imitation learning.
+- **[PINN (Physics-Informed Neural Network)](https://github.com/Suhuing/PINN_tutorial)** Principles of PINN and its application to Robotics.
+
+## 💻 Simulation & Tools
+
+- **[IsaacLab](https://github.com/chohh7391/isaaclab_tutorial)** Tutorial for NVIDIA IsaacLab simulation environment.
+
+---
+*Maintained by RCI Lab Students.*
