@@ -30,6 +30,7 @@ Resources for robot control theory, inverse dynamics, and kinematics.
 - **[Model Predictive Path Integral (MPPI)](https://github.com/leesai-0512/mppi_tutorial)** Tutorial on MPPI control strategy.
 - **[Manipulator Inverse Kinematics](https://github.com/daumpark/Manipulator-Inverse-Kinematics)** Solving inverse kinematics for robotic manipulators.
 - **[Pinocchio Library Tutorial](https://github.com/Mia-estudiante/pinocchio_tutorial)** Guide to using the Pinocchio library for rigid body dynamics.
+- **[Mobile Robot Kinematics and Path Tracking](https://github.com/jamie0925-khu/MobileRobotKinematicsTutorial)** Tutorial on mobile robot kinematics and path tracking algorithms.
 
 ## 🧠 Reinforcement Learning & AI
 
@@ -44,6 +45,6 @@ Deep learning and reinforcement learning applications in robotics.
 ## 💻 Simulation & Tools
 
 - **[IsaacLab](https://github.com/chohh7391/isaaclab_tutorial)** Tutorial for NVIDIA IsaacLab simulation environment.
-
+- **[Unity–ROS2 Event-Driven Simulation](https://github.com/bkkhu/unity-tutorial)** Unity-ROS2 based event-driven autonomous driving stack simulation.
 ---
 *Maintained by RCI Lab Students.*
